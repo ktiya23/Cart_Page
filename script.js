@@ -64,8 +64,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Function to remove item from cart
     const removeItem = (index) => {
-        cartItems.splice(index, 1);
-        renderCart();
+        const confirmDelete = confirm("Are you sure you want to remove this item from your cart?");
+        if (confirmDelete) {
+            cartItems.splice(index, 1);
+            renderCart();
+        }
     };
 
     // Event delegation for button clicks
