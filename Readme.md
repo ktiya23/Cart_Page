@@ -1,56 +1,58 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
+# Shopping Cart Page
 
-Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
+## Overview
+This project is a **responsive shopping cart page** built using **HTML, CSS, and JavaScript**. It features a well-structured UI for displaying cart items and a checkout summary, ensuring a smooth user experience across different devices.
 
-## Getting Started
+## Features
+- **Responsive Navbar:** Includes a brand logo, navigation links, and icons for cart and user profile.
+- **Cart Layout:**
+  - Desktop: Two-column layout (Cart items on the left, summary on the right).
+  - Tablet & Mobile: Stacked layout for better readability.
+- **Cart Functionality:**
+  - Displays products added to the cart.
+  - Allows quantity adjustments.
+  - Provides a remove button for each item.
+- **Checkout Summary:** Displays total price, and includes a **checkout button**.
+- **Footer Section:** Contains additional information and links.
 
-1. **Clone or Download:**
-   - If using Git, clone the repository using the following command:
-     ```
-     git clone https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code.git
-     ```
-   - Alternatively, download the code as a ZIP file and extract it.
+## Technologies Used
+- **HTML5** (Semantic structure)
+- **CSS3** (Flexbox, Grid, Media Queries)
+- **JavaScript** (Optional for interactivity like updating totals dynamically)
 
-2. **Navigate to Project Directory:**
+## Responsive Design
+The cart page is optimized for different screen sizes:
 
-3. **Explore the Structure:**
-Take a moment to review the project structure:
+### **1. Desktop (Above 1024px)**
+- Two-column layout: Cart items (left) and cart summary (right).
 
-        project-root/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-        |-- README.md
-- `index.html`: Main HTML file for your project.
-- `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for scripting logic.
-- `README.md`: Documentation for your project.
-  
-> **Important:** Avoid using additional files or a single file for your code. Feel free to organize asset files by creating a separate folder.
+### **2. Tablets (768px - 1024px)**
+- Cart items and summary stack vertically.
+- Adjusted spacing for a better fit.
 
-## Development and Testing
+### **3. Mobile (Below 768px)**
+- Navbar items are stacked vertically.
+- Cart items are displayed in a single-column layout.
+- Footer is aligned in a column format.
 
-4. **Start Working:**
-- Read all requirements that are shared with design files.
-- Open `index.html` in your browser to view the initial state of the project, And start coding.
-- Modify the `style.css` and `script.js` files to implement your solution.
-5. **Testing:**
-- Test your code to ensure it produces the expected output.
-- Ensure that the console (Developer Tools) does not display any errors.
+## Installation & Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/shopping-cart.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd shopping-cart
+   ```
+3. Open `index.html` in your browser or use a local server.
 
+## Future Enhancements
+- Add JavaScript functionality to update total dynamically.
+- Implement a backend for order processing.
+- Improve UI with animations.
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-## Updated Submission Guidelines
 
-1. Fill out the form provided at [this link](https://forms.gle/MxuzmExHGXBh3hVk8).
-2. Provide the GitHub repository link of your project in the designated field.
-3. Share the hosted link of your project in the appropriate field.
-
-
-## Important Notes
-
-- Do not use any third-party libraries or frameworks.
-- Ensure that your project works as intended and is free from errors.
-- Make sure to include clear instructions on how to run your project (if necessary).
-
-Good luck! We look forward to reviewing your submission.
