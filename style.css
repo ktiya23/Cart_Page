@@ -224,21 +224,16 @@ footer{
   width: 60px;
 }
 
-
-
-/* Styling for cart table */
 .cart-items table {
   width: 100%;
   border-collapse: collapse;
 }
 
-/* Styling for table header */
 .cart-items thead {
   background-color: #f0f0f0;
   font-weight: bold;
 }
 
-/* Styling for table rows */
 .cart-items tbody tr {
   border-bottom: 1px solid #ddd;
   background-color: #fff;

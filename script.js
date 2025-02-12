@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (cartItems[index].quantity + change > 0) {
             cartItems[index].quantity += change;
         } else {
-            cartItems.splice(index, 1); // Remove item if quantity reaches 0
+            cartItems.splice(index, 1); 
         }
         renderCart();
     };
@@ -85,6 +85,5 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     });
 
-    // Fetch and display cart on page load
     fetchCartData();
 });
