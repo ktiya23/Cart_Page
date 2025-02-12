@@ -187,3 +187,76 @@ footer{
   width: 60px;
 }
 
+
+
+/* Styling for cart table */
+.cart-items table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styling for table header */
+.cart-items thead {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+/* Styling for table rows */
+.cart-items tbody tr {
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.cart-items tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Table cells */
+.cart-items td, .cart-items th {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Product column */
+.cart-items td:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Product image */
+.cart-item-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Quantity buttons */
+.decrease-btn, .increase-btn {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.decrease-btn:hover, .increase-btn:hover {
+  background-color: #ddd;
+}
+
+/* Remove button */
+.remove-btn {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove-btn:hover {
+  background-color: darkred;
+}

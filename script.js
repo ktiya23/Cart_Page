@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 </td>
                 <td>₹${itemTotal}</td>
                 <td>
-                    <button class="remove-btn" data-index="${index}">Remove</button>
+                    <img src="assests/ant-design_delete-filled.png" class="remove-btn" data-index="${index}" />    
                 </td>
             `;
 
