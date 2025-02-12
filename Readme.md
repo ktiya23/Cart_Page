@@ -18,7 +18,7 @@ This project is a **responsive shopping cart page** built using **HTML, CSS, and
 ## Technologies Used
 - **HTML5** (Semantic structure)
 - **CSS3** (Flexbox, Grid, Media Queries)
-- **JavaScript** (Optional for interactivity like updating totals dynamically)
+- **JavaScript** (interactivity like updating totals dynamically)
 
 ## Responsive Design
 The cart page is optimized for different screen sizes:
@@ -38,18 +38,14 @@ The cart page is optimized for different screen sizes:
 ## Installation & Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/shopping-cart.git
+   git clone https://github.com/ktiya23/Cart_Page
    ```
 2. Navigate to the project directory:
    ```sh
-   cd shopping-cart
+   cd Cart_Page
    ```
 3. Open `index.html` in your browser or use a local server.
 
-## Future Enhancements
-- Add JavaScript functionality to update total dynamically.
-- Implement a backend for order processing.
-- Improve UI with animations.
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
